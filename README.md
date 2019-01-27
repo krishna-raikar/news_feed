@@ -7,6 +7,8 @@ System Details
 
 * Ruby version : 2.4.1.    Rails version: 5.2.0.  Database: Postgresql(1.1.4)
 
+Note: rails 5.2.0 has default bigint as column type for primary key id.
+
 Setup
 * Prerequisite: Rails installed, postgresql installed
 
