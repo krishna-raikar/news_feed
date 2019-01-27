@@ -3,22 +3,28 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+System Details
 
-* Ruby version
+* Ruby version : 2.4.1.    Rails version: 5.2.0.  Database: Postgresql(1.1.4)
 
-* System dependencies
+Setup
+* Prerequisite: Rails installed, postgresql installed
 
-* Configuration
+* clone the zip file in the folder.
 
-* Database creation
+* install the required gems by running 'bundle install'
 
-* Database initialization
+* Database initialization: rake db:create db:migrate
 
-* How to run the test suite
+* Run the rails service: rails s -p port_number
 
-* Services (job queues, cache servers, search engines, etc.)
+* visit localhost:port_number/news_feed.json 
 
-* Deployment instructions
 
-* ...
+
+
+Testing Details:
+ 
+* Used rspec for unit testcases.
+
+* run the testcase by command 'rspec'
